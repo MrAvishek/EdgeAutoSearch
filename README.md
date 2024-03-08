@@ -1,21 +1,26 @@
 # Web Search Automation using PyAutoGUI
+
+## Description
 This project automates web searches using Python and PyAutoGUI. It opens a new tab in the Microsoft Edge browser, types a randomly selected search string from a list, and performs the search.
 
 ## Installation
-Clone the repository:
+1. Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/MrAvishek/EdgeAutoSearch.git
-## Install the required modules:
+    ```bash
+    git clone https://github.com/MrAvishek/EdgeAutoSearch.git
+    ```
 
-bash
-Copy code
-pip install pyautogui
-Usage
-Run the bingsearch.py script:
+2. Install the required modules:
 
-bash
-Copy code
-python bingsearch.py
-The script will open a new tab in the Microsoft Edge browser, type a randomly selected search string from a predefined list, and perform the search.
+    ```bash
+    pip install pyautogui
+    ```
+
+## Usage
+1. Run the `bingsearch.py` script:
+
+    ```bash
+    python bingsearch.py
+    ```
+
+2. The script will open a new tab in the Microsoft Edge browser, type a randomly selected search string from a predefined list, and perform the search.
