@@ -15,6 +15,10 @@ This project automates web searches using Python and PyAutoGUI. It opens a new t
     ```bash
     pip install pyautogui
     ```
+    ```bash
+    pip install pyautogui pynput
+    ```
+
 
 ## Usage
 1. Run the `bingsearch.py` script:
